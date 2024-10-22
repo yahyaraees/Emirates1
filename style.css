@@ -1,0 +1,242 @@
+
+ *{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+ }
+ #container{
+  /* background-color: aqua; */
+height: 100vh;
+width: 100%;
+/* background-color: aqua; */
+ } 
+  /* .logo{
+    background-color: white;
+    display: flex;
+    width: 15.2%;
+    float: left;
+    height: 8vh;
+  
+ }  */
+ /* .nevBar {
+ background-color: red;
+ display: flex;
+ width: 80%;
+ float: right;
+ 
+ 
+
+ } */
+ .nevBar {
+   /* background-color:rgba(31, 29, 28, 0.9); */
+   /* background-color: rgba(54, 45, 45,1); */
+   font-weight: bold;
+   display: flex; /* Flex container for child elements */
+   justify-content:center;
+   width: 100%;
+   height: 10vh;
+   position: fixed; 
+   z-index: 1000;
+   margin: 0 auto; /* Centers the .nevBar */
+ }
+ @keyframes example {
+
+    0%   {background-color:rgb(54, 45, 45); left:0px; top:0px;}
+    25%  {background-color:rgb(129, 117, 117); left:10px; top:0px;}
+    50%  {background-color:rgb(172, 157, 158); left:10px; top:100px;}
+    75%  {background-color:rgb(129, 117, 117); left:0px; top:100px;}
+    100% {background-color:rgb(54, 45, 45); left:0px; top:0px;}
+  }
+
+/* The element to apply the animation to */
+.nevBar{
+  width: 100%;
+  height: 60px;
+  position: relative; 
+  /* background-color:black; */
+  animation-name: example;
+  animation-duration: 2s;
+  /* animation-iteration-count: 2;
+  animation-direction: alternate; */
+   animation-fill-mode: forwards; 
+  font-weight: bold;
+  
+  color: white;
+  
+}
+ 
+ 
+ .nevBar ul {
+   list-style-type: none; /* Removes default list styling */
+   margin-left:  50px; /* Resets default margin */
+   padding: 0; /* Resets default padding */
+   display: flex; 
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+   
+ }
+ 
+ .nevBar ul li {
+   padding: 10px; 
+   
+  
+ }
+ .nevBar ul :hover{
+  /* background-color: black; */
+  text-shadow: 2px 3px 5px white;
+  text-decoration-line:underline;
+
+ }
+ 
+
+ .firstPage{
+
+ /* background-color: red; */
+ height: 70vh;
+ 
+ color: aqua;
+
+
+ }
+ .secondPage{
+  /* background-color:aqua; */
+  justify-content: center;
+  margin-top: 10px;
+  display: flex;
+  /* margin-bottom: -20px; */
+  /* background-color: aquamarine; */
+  height: 70vh;
+  margin-left: 20px;
+  cursor: pointer;
+  
+ }
+ 
+ .thirdPage{
+  /* background-color:black; */
+  justify-content: center;
+  margin-top: 10px;
+  display: flex;
+  /* margin-bottom: -20px; */
+  /* background-color:red; */
+  height: 70vh;
+  cursor: pointer;
+
+ }
+ .fourthPage{
+
+/* background-color:black; */
+height: 90vh;
+
+ }
+.fifthPage{
+ justify-content:center;
+ /* margin: 10px; */
+
+height: 95vh;
+/* background-color: aqua; */
+width: 100%;
+display: flex; 
+/* font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex; */
+
+}
+
+.fifthPage img{
+ margin: 10px;
+ cursor: pointer;
+ text-shadow: 2px 2px 5px black;
+
+}.fifthPage :hover{
+
+  text-shadow: 2px 2px 5px black;
+}
+
+
+
+/*   
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+    to { background-color: aqua;}
+    to { background-color: aqua;}
+    to { background-color:red;}
+    to { background-color: black;}
+    to { background-color: aqua;}
+  }
+  
+  /* The element to apply the animation to */
+  /* .sixthPage {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+  } 
+ */
+
+ 
+
+ /* @keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+/* The element to apply the animation to */
+/* .sixthPage{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 2s;
+}  */
+
+/* @keyframes example {
+  0%   {background-color:rgb(100, 87, 87); left:0px; top:0px;}
+  25%  {background-color:rgb(129, 117, 117); left:200px; top:0px;}
+  50%  {background-color:rgb(101, 86, 86); left:200px; top:200px;}
+  75%  {background-color:rgb(172, 157, 157); left:0px; top:200px;}
+  100% {background-color:rgb(105, 95, 95); left:0px; top:0px;}
+} */
+
+/* The element to apply the animation to */
+/* .sixthPage {
+  width: 50% ;
+  height: 100px;
+  position: relative;
+  /* background-color: red; */
+  /* animation-name: example;
+  animation-duration: 8s;
+  font-weight: bold;
+  color: white;
+   */
+
+   /* .sixthPage img{
+    width: 100%;
+  
+   } */
+
+   marquee{
+    font-family:fantasy;
+    /* font-weight: bold; */
+    font-size: 40px;
+    padding: 15px;
+    /* background-color: red; */
+    color: black;
+
+    /* background-color: red; */
+   }
+   .sevenPage{
+    cursor: pointer;
+    /* background-color: red; */
+   }
+   span{
+    color: rgba(217, 15, 45,0.9);
+    
+   }
+ 
